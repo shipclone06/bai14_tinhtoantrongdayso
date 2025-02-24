@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -28,8 +29,10 @@ namespace bai14_tinhtoantrongdayso
             int socuoi = Convert.ToInt32(txtsocuoi.Text);
             int chan = 0;
             int le = 0;
-            for (int i = sodau; i <= socuoi; i++) 
-            
+            txttongchan.Text = "";
+            txttongle.Text= "";
+           /* for (int i = sodau; i <= socuoi; i++)
+
                 if (i % 2 == i)
                 {
                     chan += i;
@@ -37,10 +40,26 @@ namespace bai14_tinhtoantrongdayso
                 else
                 {
                     le += i;
+                }*/
+           while (sodau <= socuoi)
+            {
+                if (sodau % 2 == 0)
+                {
+                    chan += sodau;
                 }
-                txttongchan.Text = chan.ToString();
+                else
+                {
+                    le += sodau;
+                }
+                sodau++;
+            }
+
+
+            txttongchan.Text = chan.ToString();
                 txttongle.Text = le.ToString();
                 txttatca.Text = (chan + le).ToString();
+           
+
             }
 
         private void Form1_Load(object sender, EventArgs e)

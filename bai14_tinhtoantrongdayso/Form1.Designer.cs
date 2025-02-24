@@ -89,6 +89,7 @@
             // 
             // txtsodau
             // 
+            this.txtsodau.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.txtsodau.Location = new System.Drawing.Point(108, 78);
             this.txtsodau.Name = "txtsodau";
             this.txtsodau.Size = new System.Drawing.Size(100, 20);
@@ -96,6 +97,7 @@
             // 
             // txtsocuoi
             // 
+            this.txtsocuoi.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.txtsocuoi.Location = new System.Drawing.Point(108, 110);
             this.txtsocuoi.Name = "txtsocuoi";
             this.txtsocuoi.Size = new System.Drawing.Size(100, 20);
@@ -103,6 +105,7 @@
             // 
             // txttongchan
             // 
+            this.txttongchan.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.txttongchan.Location = new System.Drawing.Point(320, 36);
             this.txttongchan.Name = "txttongchan";
             this.txttongchan.Size = new System.Drawing.Size(100, 20);
@@ -110,6 +113,7 @@
             // 
             // txttongle
             // 
+            this.txttongle.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.txttongle.Location = new System.Drawing.Point(320, 77);
             this.txttongle.Name = "txttongle";
             this.txttongle.Size = new System.Drawing.Size(100, 20);
@@ -117,6 +121,7 @@
             // 
             // txttatca
             // 
+            this.txttatca.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.txttatca.Location = new System.Drawing.Point(320, 128);
             this.txttatca.Name = "txttatca";
             this.txttatca.Size = new System.Drawing.Size(100, 20);
@@ -124,19 +129,20 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.button1.Location = new System.Drawing.Point(132, 181);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(209, 60);
             this.button1.TabIndex = 8;
             this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(725, 349);
+            this.ClientSize = new System.Drawing.Size(510, 290);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txttatca);
             this.Controls.Add(this.txttongle);
